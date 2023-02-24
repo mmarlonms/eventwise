@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWise.WebApi", "src\EventWise.WebApi\EventWise.WebApi.csproj", "{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACD9F435-933C-416D-ACF1-1E2323313672}
+	EndGlobalSection
+EndGlobal
