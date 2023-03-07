@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWise.WebApi", "src\EventWise.WebApi\EventWise.WebApi.csproj", "{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventWise.WebApi", "src\EventWise.WebApi\EventWise.WebApi.csproj", "{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FAAB47CE-922A-4DBD-BE6B-833A42D29DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{344D8BE1-3C81-47CE-8250-1DFFB3369C2E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose up.bat = docker-compose up.bat
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvemtWise.IntegrationTest", "tests\IntegrationTests\EvemtWise.IntegrationTest.csproj", "{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +26,16 @@ Global
 		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D4ABF8-A40D-4D24-8AD9-D975A2299BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC447BBC-2CF4-4BF3-8E43-6B586E1249B3} = {FAAB47CE-922A-4DBD-BE6B-833A42D29DF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACD9F435-933C-416D-ACF1-1E2323313672}
